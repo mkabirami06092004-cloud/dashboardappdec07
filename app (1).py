@@ -10,7 +10,7 @@ st.title('Pizza Sales Dashboard')
 # Load the dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv('/content/pizza_sales.csv')
+    df = pd.read_csv('pizza_sales.csv')
     return df
 
 df = load_data()
